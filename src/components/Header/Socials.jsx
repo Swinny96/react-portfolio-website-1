@@ -37,4 +37,7 @@ const HeaderSocials = styled.div`
         height: 2rem;
         background: var(--color-primary);
     }
+    @media screen and (max-width: 600px) { 
+        display: none;
+    }
 `
