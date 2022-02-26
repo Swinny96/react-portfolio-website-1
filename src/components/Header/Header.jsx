@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import "./Header.css"
 import CTA from './CTA'
 import Me from '../../assets/me.webp'
 import Socials from './Socials'
 
 const Header = () => {
   return (
-    <MyHeader> 
+    <MyHeader id='home'>
       <HeaderContainer className="container header__container">
         <Welcome>Hello I'm</Welcome>
         <Name>Christopher Swinton</Name>
