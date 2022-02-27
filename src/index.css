@@ -39,7 +39,11 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: linear-gradient(
+    to right,
+    var(--color-bg),
+    var(--color-bg-variant)
+  );
   color: var(--color-white);
   line-height: 1.7;
 }
@@ -154,7 +158,7 @@ img {
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-  background: var(--color-primary)
+  background: var(--color-primary);
 }
 
 /* ============== CONTACT STYLES ================ */
