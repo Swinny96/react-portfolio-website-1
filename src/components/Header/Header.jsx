@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import CTA from './CTA'
-import Me from '../../assets/me.webp'
+import Me from '../../assets/nobg-me.png'
 import Socials from './Socials'
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
         <CTA />
         <Socials />
         <MySelf className="me">
-          <img src={Me} alt='Christopher Swinton'/>
+          <MyImgage src={Me} alt='Christopher Swinton'/>
         </MySelf>
         <ScrollDown className='scroll_down' href='#contact'>
           Scroll Down
@@ -46,7 +46,7 @@ const Welcome = styled.h5``
 const Name = styled.h1``
 const MySelf = styled.div`
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 20rem;
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
@@ -54,6 +54,9 @@ const MySelf = styled.div`
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+`
+const MyImgage = styled.img`
+  height: 25rem;
 `
 const Role = styled.h5``
 const ScrollDown = styled.a`
