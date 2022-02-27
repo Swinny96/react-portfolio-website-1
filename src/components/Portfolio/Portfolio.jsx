@@ -7,7 +7,7 @@ const Portfolio = () => {
     <PortfolioSection id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <PortfolioContainer>
+      <PortfolioContainer className='container'>
         {
           Data.map(({id, image, title, github, demo }) => {
             return (

@@ -7,8 +7,7 @@ const Experince = () => {
     <ExperinceSection id="experince">
       <h5>What Skills I have</h5>
       <h2>My Experince</h2>
-
-      <ExperinceContainer>
+      <ExperinceContainer className='container'>
         <ExperinceFrontend>
           <Heading>Frontend Development</Heading>
           <ExperinceContent>

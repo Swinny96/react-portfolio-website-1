@@ -7,7 +7,7 @@ const Services = () => {
     <ServicesSection id='services'>
       <h5>What I Offer</h5>
       <h2>Services</h2>
-      <ServicesContainer>
+      <ServicesContainer className='container'>
         <Service>
           <ServiceHead>
             <ServiceTitle>UI/UX Design</ServiceTitle>

@@ -139,6 +139,24 @@ img {
   margin-top: 2px;
 }
 
+/* ============== TESTIMONIALS STYLES ================ */
+.TestimonialContainer {
+  width: 40%;
+  padding-bottom: 4rem;
+}
+
+.Testimonial {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary)
+}
+
 /* ============ MOBILE QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
@@ -147,6 +165,9 @@ img {
   }
   section {
     margin-top: 6rem;
+  }
+  .TestimonialContainer {
+    width: 60%;
   }
 }
 
@@ -158,5 +179,8 @@ img {
   }
   section > h2 {
     margin-bottom: 2rem;
+  }
+  .TestimonialContainer {
+    width: var(--container-width-sm);
   }
 }

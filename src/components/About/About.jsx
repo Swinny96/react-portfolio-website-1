@@ -10,8 +10,7 @@ const About = () => {
     <AboutSection id="about">
       <h5>Get to Know</h5>
       <h2>About Me</h2>
-
-      <AboutConatiner>
+      <AboutConatiner className='container'>
         <AboutMe>
           <Myself src={Me} alt="Christopher Swinton" />
         </AboutMe>
