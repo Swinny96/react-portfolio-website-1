@@ -120,6 +120,14 @@ img {
   object-fit: cover;
 }
 
+/* ============== ABOUT STYLES ============ */
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
 /* ============ MOBILE QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
