@@ -133,6 +133,12 @@ img {
   color: var(--color-primary);
 }
 
+/* ============== SERVICES STYLES ================ */
+.service__list-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
 /* ============ MOBILE QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
