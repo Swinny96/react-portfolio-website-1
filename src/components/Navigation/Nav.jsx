@@ -56,8 +56,8 @@ const Navigation = styled.nav`
         background: rgba(0, 0, 0, 0.3);
       }
       &.active {
-        background: var(--color-bg);
-        color: var(--color-white);
+        background: var(--color-primary);
+        color: var(--color-bg);
       }
   }
 `
