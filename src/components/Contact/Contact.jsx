@@ -36,13 +36,13 @@ const Contact = () => {
             <ContactLink href='mailto:dummyemail@gmail.com' target='_blank'>Send a message</ContactLink>
           </ContactOption>
           <ContactOption>
-            <RiMessengerLine/>
+            <RiMessengerLine className='contact__option-icon'/>
             <ContactType>Messenger</ContactType>
             <ContactName>Christopher Swinton</ContactName>
             <ContactLink href='https://facebook.com' target='_blank'>Send a message</ContactLink>
           </ContactOption>
           <ContactOption>
-            <BsWhatsapp/>
+            <BsWhatsapp className='contact__option-icon'/>
             <ContactType>WhatsApp</ContactType>
             <ContactName>+447479537010</ContactName>
             <ContactLink href='https://api.whatsapp.com/send?phone=+447479537010' target='_blank'>Send a message</ContactLink>
