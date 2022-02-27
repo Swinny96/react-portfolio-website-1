@@ -45,9 +45,7 @@ const About = () => {
 
 export default About
 
-const AboutSection = styled.section`
-
-`
+const AboutSection = styled.section``
 const AboutConatiner = styled.div`
   display: grid;
   grid-template-columns: 35% 50%;
