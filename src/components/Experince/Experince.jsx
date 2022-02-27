@@ -146,6 +146,7 @@ const ExperinceBackend = styled.div`
   border-radius: 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  transition: var(--transition);
 
   &:hover {
     background: transparent;
