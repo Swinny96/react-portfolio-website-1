@@ -1,10 +1,10 @@
 import React from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import styled from 'styled-components'
-import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import styled from 'styled-components';
+import {MdOutlineEmail} from 'react-icons/md';
+import {RiMessengerLine} from 'react-icons/ri';
+import {BsWhatsapp} from 'react-icons/bs';
 
 const Contact = () => {
 
@@ -61,9 +61,7 @@ const Contact = () => {
 
 export default Contact
 
-const ContactSection = styled.section`
-  margin: 0 auto;
-`
+const ContactSection = styled.section``
 const ContactContainer = styled.div`
   width: 58%;
   display: grid;
