@@ -85,11 +85,11 @@ const ContactOption = styled.article`
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
-  border 1px solid transparant;
+  border 1px solid transparent;
   transition: var(--transition);
 
   &:hover {
-    background: transparant;
+    background: transparent;
     border-color: var(--color-primary-variant);
   }
 `

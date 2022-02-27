@@ -56,7 +56,7 @@ const PortfolioItem = styled.article`
 
   &:hover{
     border-color: var(--color-primary-variant);
-    background: transparant;
+    background: transparent;
   }
 `
 const PortfolioImageConatiner = styled.div`
