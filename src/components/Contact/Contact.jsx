@@ -72,7 +72,7 @@ const ContactContainer = styled.div`
       gap: 2rem;
   }
   @media screen and (max-width: 600px) {
-      width: var(--container-width-sm);
+      width: var(--container-width-ms);
   }
 `
 const ContactOptions = styled.div`

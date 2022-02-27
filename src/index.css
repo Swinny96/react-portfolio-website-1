@@ -181,12 +181,12 @@ img {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-sm);
+    width: var(--container-width-ms);
   }
   section > h2 {
     margin-bottom: 2rem;
   }
   .TestimonialContainer {
-    width: var(--container-width-sm);
+    width: var(--container-width-ms);
   }
 }
